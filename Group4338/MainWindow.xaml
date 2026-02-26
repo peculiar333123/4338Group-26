@@ -50,11 +50,49 @@
                     <RowDefinition />
                 </Grid.RowDefinitions>
 
-                <!-- Места для добавления элементов управления -->
+                <!-- Кнопка 1 -->
+                <Button Content="Кнопка 1" 
+                Click="Button_Click" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Width="150" 
+                Height="30" 
+                Grid.Row="0" />
 
-                <!---->
+                <!-- Кнопка 2 -->
+                <Button Content="Кнопка 2" 
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Center" 
+                        Width="150" 
+                        Height="30" 
+                        Grid.Row="1" />
+
+                <!-- Кнопка 3 -->
+                <Button Content="Кнопка 3" 
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Center" 
+                        Width="150" 
+                        Height="30" 
+                        Grid.Row="2" />
+
+                <!-- Кнопка 4 -->
+                <Button Content="Кнопка 4" 
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Center" 
+                        Width="150" 
+                        Height="30" 
+                        Grid.Row="3" />
+
+                <!-- Кнопка 5 -->
+                <Button Content="Кнопка 5" 
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Center" 
+                        Width="150" 
+                        Height="30" 
+                        Grid.Row="4" />
 
             </Grid>
         </Grid>
+        
     </Grid>
 </Window>
